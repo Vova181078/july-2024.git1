@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    
+    
+}
+
+div>img {
+    width: 500px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+label {
+    width: 550px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+input{
+    padding: 20px;
+    font-size: 25px;
+   
+}
+div span {
+  color: gray;
+    font-size: 25px;
+    font-weight: bold;
+}
+button {
+    width: 550px;
+    background-color: #79bde8;
+    color: white;
+    display: block;
+    padding: 20px;
+    margin: 0 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: darkslateblue;
+    font-weight: bolder;
+    padding: 10px;
+}
+.footer-form p {
+    margin-top: 5px;
+}
+
+.check-in {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    padding: 0 5px;
+    
+}
+.check-in a {
+    text-decoration: none;
+    padding: 5px;
+    color: darkslateblue;
+}

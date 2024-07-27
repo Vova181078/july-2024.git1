@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*-------Page1-------*/
+.active {
+    color: #2bed0f;
+}
+
+header {
+    height: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 20px;
+
+
+}
+header div{
+    text-align: center;
+
+}
+.page-1 {
+    height: 90vw;
+    background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+main .page-1 p {
+    font-size: 20px;
+}
+.page-1 h1 {
+    font-size: 100px;
+    letter-spacing: 30px;
+
+}
+button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.flex-page-2 {
+    overflow: hidden;
+    height: 70vh;
+    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW58ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+
+    
+}
+
+aside {
+    width:20%;
+    margin-left: 5px;
+    text-align: left;
+    
+
+}
+div .box {
+    width: 100px;
+    height: 80px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+div .box:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.blue {
+    color: blue;
+}
+.pink {
+    color: #772b38;
+}
+
+div .box{
+    width: 100px;
+    text-align: left;
+}
+
+footer {
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+div a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 5px;
+}
+div a:hover{
+    color: green;
+}
+
+
+
+

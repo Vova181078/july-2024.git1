@@ -1,0 +1,26 @@
+
+
+ul>li {
+    list-style-type: none;
+}
+
+.text-1>li:nth-child(even){
+    color: #9F3919;
+}
+
+.text-2>li:nth-child(odd){
+    font-size: 22px;
+}
+
+.text-3>li:nth-child(2n+4):after {
+    content: "!";
+}
+
+.text-4>li:nth-child(12n) {
+    color: violet;
+}
+
+.text-5>li:first-letter {
+     font-size: 30px;
+    color: red;
+}

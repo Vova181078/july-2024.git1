@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+}
+.nav-header a {
+    text-decoration: none;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.button-nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #03045E;
+    border: none ;
+
+}
+ button {
+     border: none;
+ }
+
+ .head-flex {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .content-header {
+     margin-top: 170px;
+
+ }
+ .content-header h3 {
+     width: 556px;
+     color: #03045E;
+     font-family: "Ubuntu", sans-serif;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 68px; /* 141.667% */
+ }
+
+.content-header p {
+    width: 556px;
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+ .pricing {
+     width: 110px;
+     height: 25px;
+     color: #FFF;
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     display: flex;
+     padding: 17px 38px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 5px;
+     background: #0098FF;
+     border: none;
+     text-decoration: none;
+ }
+ div img {
+     margin-top: 80px;
+ }
+
+       /*--------Search domain-------*/
+
+.section-domain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+.content-domain h4 {
+    padding: 0 0 30px 0;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+label button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 38px 18px 38px;
+    gap: 10px;
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+
+  
+}
+label {
+    display: flex;
+    width: 625px;
+    align-items: flex-start;
+
+}
+input {
+    padding: 4px;
+    width: 200px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #F6F6F6;
+
+}
+.domain-price {
+    margin-top: 70px;
+}
+
+.in-domain button {
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    padding: 0 0 30px 0;
+
+}
+.price, .price-box {
+    color: #0098FF;
+}
+.price-box {
+    width: 95px;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.price-box p {
+    width: 95px;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.3;
+}
+
+/*--------Our Services---------*/
+ .our-services {
+     width: 1300px;
+     height: 100vh;
+     margin: 0 auto;
+ }
+.our-services h3 {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.flex-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+
+}
+
+.flex-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.flex-top h5, .flex-bottom h5 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.flex-top p, .flex-bottom p {
+    width: 400px;
+    color: #03045E;
+    text-align: center;
+    font-family:  "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+/*--------------Our Clients-----------------*/
+.our-clients {
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto;
+}
+.p-clients h2{
+    width: 450px;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.our-clients h2 {
+    font-size: 30px;
+}
+.flex-clients {
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+ }
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+ .flex-clients p {
+     width: 327px;
+     color: #03045E;
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     opacity: 0.5;
+     margin: 0 auto;
+     padding-top: 20px;
+ }
+.flex-clients h5 {
+    width: 120px;
+    color: #030453;
+    font-family:  "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+}
+.flex-clients span {
+    width: 400px;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.flex-clients img {
+    width: 100px;
+    height: 8px;
+    margin: 40px auto;
+
+}
