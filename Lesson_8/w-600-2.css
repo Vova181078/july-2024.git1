@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+
+.desktop {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 98vw;
+    border-radius: 5px;
+}
+header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2px;
+   
+   
+   }
+header {
+    width: 98vw;
+    height: 20vh;
+}
+   a {
+       display: flex;
+       justify-content: center;
+       width: 93vw;
+       height: 5vh;
+       text-align: center;
+   }
+   .banner {
+       height: 20vh;
+       margin-top: 10px;
+       justify-content: center;
+       align-items: center;
+       
+       
+   }
+   .article {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 5px auto;
+   }
+   .art {
+       width: 88vw;
+       height: 10vh;
+       justify-content: center;
+       align-items: center;
+      
+   }
+   footer {
+       width: 90vw;
+       justify-content: center;
+       align-items: center;
+       
+   }
+}
+
+

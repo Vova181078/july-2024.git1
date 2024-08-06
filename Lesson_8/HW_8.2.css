@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.desktop {
+    color: white;
+    margin: 5px auto;
+   
+   
+  
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    margin-left: 58px;
+
+}
+
+ .desktop header a{
+     color: white;
+    background-color: dodgerblue;
+     text-decoration: none;
+     padding: 2px;
+     margin-left: 5px;
+     border-radius: 5px;
+
+}
+ .banner {
+     width: 89vw;
+     height: 38vh;
+     background-color: dodgerblue;
+     display: flex;
+     justify-content: flex-end;
+     margin: 10px auto;
+     padding: 10px;
+     border-radius: 10px;
+ }
+
+ .article {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+ }
+.art {
+    width: 42vw;
+    height: 20vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 19px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.left .art{
+    display: flex;
+    flex-direction: row;
+}
+.left .under-art {
+    display: flex;
+    flex-direction: row;
+}
+.right .art{
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    width: 89vw;
+    height: 5vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}

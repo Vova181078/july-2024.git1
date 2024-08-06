@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.main {
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
+
+header {
+    width: 98vw;
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p-top {
+    width: 68vw;
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+    gap: 45px;
+}
+.p-top .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    width: 29vw;
+    height: 63vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+   
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+.bottom p {
+    width: 30vw;
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+
+}
